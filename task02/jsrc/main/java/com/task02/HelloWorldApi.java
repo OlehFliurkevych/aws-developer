@@ -10,7 +10,7 @@ import com.syndicate.deployment.annotations.lambda.LambdaHandler;
 import com.syndicate.deployment.model.lambda.url.AuthType;
 import com.syndicate.deployment.model.lambda.url.InvokeMode;
 
-@LambdaHandler(lambdaName = "hello_world_api",
+@LambdaHandler(lambdaName = "hello_world",
   roleName = "hello_world_api-role",
   isPublishVersion = true
 )
